@@ -9,3 +9,15 @@ auth-microservice/
 │── requirements.txt
 │── Dockerfile
 │── .env
+
+
+dependeis
+
+
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-jose[cryptography]
+passlib[bcrypt]
+python-dotenv
